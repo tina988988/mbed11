@@ -47,24 +47,6 @@ print(char.decode())
 
 print("start sending RPC")
 while True:
-    # send RPC to remote
-    #s.write("/myled1/write 1\r".encode())
-    #time.sleep(1)
-
-    #s.write("/myled2/write 1\r".encode())
-    #time.sleep(1)
-
-    #s.write("/myled3/write 1\r".encode())
-    #time.sleep(1)
-
-    #s.write("/myled3/write 0\r".encode())
-    #time.sleep(1)
-
-    #s.write("/myled2/write 0\r".encode())
-    #time.sleep(1)
-
-    #s.write("/myled1/write 0\r".encode())
-    #time.sleep(1)
     s.write("/ACC/run 1\r".encode())
     time.sleep(1)
 
